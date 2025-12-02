@@ -1,18 +1,17 @@
 
 
-## ✨ Fonctionnalités Implémentées
+## Fonctionnalités Implémentées
 
 Le projet met en œuvre les mécanismes d'authentification suivants via **Firebase Authentication** :
 
-* ✅ **Inscription et Connexion** par adresse e-mail et mot de passe.
-* ✅ **Inscription et Connexion** via Google Sign-In.
-* ✅ **Interface de Bienvenue** après connexion.
-* ✅ **Déconnexion** complète.
-* 🎨 **Design Responsive** et moderne (Card, Outlined Inputs) adapté au Web.
+*  **Inscription et Connexion** par adresse e-mail et mot de passe.
+*  **Inscription et Connexion** via Google Sign-In.
+*  **Interface de Bienvenue** après connexion.
+*  **Déconnexion** complète.
 
 ---
 
-## 🚧 Limitations et Authentification Sociale Non Implémentée
+## Limitations et Authentification Sociale Non Implémentée
 
 Bien que l'authentification sociale (via des plateformes tierces) ait été prévue, certaines méthodes n'ont pas pu être intégrées pour des raisons de configuration et de prérequis externes.
 
