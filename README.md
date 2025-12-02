@@ -18,6 +18,6 @@ Bien que l'authentification sociale (via des plateformes tierces) ait été pré
 
 | Méthode | Statut | Raison de la limitation |
 | :--- | :--- | :--- |
-| **Authentification Apple** (Apple Sign-In) | ❌ Non implémentée | L'intégration de cette fonctionnalité nécessite l'inscription à l'**Apple Developer Program** ($99 USD/an), une contrainte financière qui n'a pas pu être remplie pour ce projet scolaire. |
+| **Authentification Apple** (Apple Sign-In) | ❌ Non implémentée | L'intégration de cette fonctionnalité nécessite l'inscription à l'**Apple Developer Program** ($99 USD/an), une contrainte financière qui n'a pas pu être remplie pour ce projet. |
 | **Authentification Facebook** (Facebook Sign-In) | ❌ Non implémentée | La plateforme Meta (Facebook) exige que le compte développeur ait un historique d'utilisation significatif avant de pouvoir créer une application et activer les services d'authentification, ce qui a bloqué la mise en place de la configuration nécessaire. |
 
