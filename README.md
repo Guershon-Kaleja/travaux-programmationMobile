@@ -1,6 +1,6 @@
 
 
-## Fonctionnalités Implémentées
+## Fonctionnalités Implémentées juste pour le web
 
 Le projet met en œuvre les mécanismes d'authentification suivants via **Firebase Authentication** :
 
