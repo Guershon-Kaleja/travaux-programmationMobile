@@ -1,29 +1,31 @@
 import 'package:firebase_auth/firebase_auth.dart';
 
 class AuthService {
-  
-  Future<UserCredential?> signInWithGoogle() async {
+  // Google sign-in (Web)
+  Future<User?> signInWithGoogle() async {
     try {
-      
-      return await FirebaseAuth.instance.signInWithPopup(GoogleAuthProvider());
+      final userCredential =
+          await FirebaseAuth.instance.signInWithPopup(GoogleAuthProvider());
+      return userCredential.user;
     } catch (e) {
       print("Google Sign-In Error: $e");
       return null;
     }
   }
 
-  
-  Future<UserCredential?> signInWithTwitter() async {
+  // Twitter sign-in (Web)
+  Future<User?> signInWithTwitter() async {
     try {
-      
-      return await FirebaseAuth.instance.signInWithPopup(TwitterAuthProvider());
+      final userCredential =
+          await FirebaseAuth.instance.signInWithPopup(TwitterAuthProvider());
+      return userCredential.user;
     } catch (e) {
       print("Twitter Sign-In Error: $e");
       return null;
     }
   }
 
-  
+  // Logout
   Future<void> signOut() async {
     await FirebaseAuth.instance.signOut();
   }

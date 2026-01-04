@@ -1,22 +1,60 @@
+# 📱 Application Flutter Web – Authentification & Gestion des Produits
 
-
-## Fonctionnalités Implémentées
-
-Le projet met en œuvre les mécanismes d'authentification suivants via **Firebase Authentication** :
-
-*  **Inscription et Connexion** par adresse e-mail et mot de passe.
-*  **Inscription et Connexion** via Google Sign-In.
-*  **Interface de Bienvenue** après connexion.
-*  **Déconnexion** complète.
+Ce projet est une application mobile/web développée avec **Flutter** et **Firebase**, permettant l’authentification des utilisateurs et la gestion de produits de manière sécurisée et dynamique.
 
 ---
 
-## Limitations et Authentification Sociale Non Implémentée
+## 🚀 Fonctionnalités
 
-Bien que l'authentification sociale (via des plateformes tierces) ait été prévue, certaines méthodes n'ont pas pu être intégrées pour des raisons de configuration et de prérequis externes.
+### 🔐 Authentification des utilisateurs
+- Inscription et connexion avec **adresse e-mail et mot de passe**
+- Inscription et connexion via :
+  - **Google Sign-In**
+  - **Twitter**
+- Gestion automatique de la session utilisateur
+- Déconnexion sécurisée
 
-| Méthode | Statut | Raison de la limitation |
-| :--- | :--- | :--- |
-| **Authentification Apple** (Apple Sign-In) | ❌ Non implémentée | L'intégration de cette fonctionnalité nécessite l'inscription à l'**Apple Developer Program** ($99 USD/an), une contrainte financière qui n'a pas pu être remplie pour ce projet. |
-| **Authentification Facebook** (Facebook Sign-In) | ❌ Non implémentée | La plateforme Meta (Facebook) exige que le compte développeur ait un historique d'utilisation significatif avant de pouvoir créer une application et activer les services d'authentification, ce qui a bloqué la mise en place de la configuration nécessaire. |
+---
+
+### 👤 Gestion des utilisateurs
+- Stockage des informations utilisateur dans **Cloud Firestore**
+  - Nom
+  - Email
+  - Fournisseur d’authentification
+- Récupération automatique des informations utilisateur après connexion
+- Synchronisation entre Firebase Authentication, Firestore et stockage local
+
+---
+
+### 📦 Gestion des produits
+- Ajout de produits avec :
+  - Nom
+  - Catégorie
+  - Prix
+  - Quantité
+- Association des produits à l’utilisateur connecté
+- Affichage en temps réel via **StreamBuilder**
+- Modification des informations d’un produit existant
+- Suppression des produits
+
+---
+
+### 🔎 Filtrage & Interface
+- Filtrage dynamique des produits par **catégorie**
+- Les catégories sont récupérées directement depuis **Cloud Firestore**
+- Interface intuitive et responsive :
+  - Menu latéral avec informations utilisateur
+  - Boutons d’action (ajout, modification, suppression)
+
+---
+
+## 🛠️ Technologies utilisées
+
+- **Flutter** (Web / Mobile)
+- **Firebase Authentication**
+- **Cloud Firestore**
+- **Google Sign-In**
+- **Twitter Authentication**
+- **Local Storage** (persistance locale)
+
 
