@@ -1,6 +1,6 @@
 # 📱 Application Flutter Web – Authentification & Gestion des Produits
 
-Ce projet est une application mobile/web développée avec **Flutter** et **Firebase**, permettant l’authentification des utilisateurs et la gestion de produits de manière sécurisée et dynamique.
+Ce projet est une application web développée avec **Flutter** et **Firebase**, permettant l’authentification des utilisateurs et la gestion de produits de manière sécurisée et dynamique.
 
 ---
 
@@ -50,7 +50,7 @@ Ce projet est une application mobile/web développée avec **Flutter** et **Fire
 
 ## 🛠️ Technologies utilisées
 
-- **Flutter** (Web / Mobile)
+- **Flutter** (Web)
 - **Firebase Authentication**
 - **Cloud Firestore**
 - **Google Sign-In**
