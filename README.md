@@ -61,7 +61,7 @@ Ce projet est une application web développée avec **Flutter** et **Firebase**,
 
 ### 👨‍💻 Fait par
 
-- **KALEJA MUTOMBO GUETSHON**
+- **KALEJA MUTOMBO GUERSHON**
 - **KILUNDU MPO ELIE**
 - **LIBEKI LOMPOLA CHRISTIAN**
 - **MULUMBA MULAMBO NATHAN DERICK**
