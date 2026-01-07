@@ -61,21 +61,11 @@ Ce projet est une application web développée avec **Flutter** et **Firebase**,
 
 ### 👨‍💻 Fait par
 
-```markdown
-## 👨‍💻 Fait par
-
 - **KALEJA MUTOMBO GUETSHON**
 - **KILUNDU MPO ELIE**
 - **LIBEKI LOMPOLA CHRISTIAN**
 - **MULUMBA MULAMBO NATHAN DERICK**
 - **AMUSA KATAMBWA CHRISTOPHER**
-
----
-
-# Application Flutter – Authentification & Gestion de Produits
-
-Ce projet est une application développée avec **Flutter** et **Firebase**.
-Elle permet l’authentification des utilisateurs ainsi que la gestion de produits stockés dans **Cloud Firestore**.
 
 ---
 
