@@ -66,6 +66,8 @@ Ce projet est une application web développée avec **Flutter** et **Firebase**,
 - **LIBEKI LOMPOLA CHRISTIAN**
 - **MULUMBA MULAMBO NATHAN DERICK**
 - **AMUSA KATAMBWA CHRISTOPHER**
+- **MAKONTSHI MIKOBI ISAAC**
+- **ABEDI MIEZI OSEE**
 
 ---
 
