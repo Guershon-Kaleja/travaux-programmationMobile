@@ -68,6 +68,7 @@ Ce projet est une application web développée avec **Flutter** et **Firebase**,
 - **AMUSA KATAMBWA CHRISTOPHER**
 - **MAKONTSHI MIKOBI ISAAC**
 - **ABEDI MIEZI OSEE**
+- **MANDE MUDI NGBUTENE PETER**
 
 ---
 
